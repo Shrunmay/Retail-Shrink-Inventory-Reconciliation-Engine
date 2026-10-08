@@ -1,0 +1,27 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Local Environment Variables & Secrets
+.env
+
+# Data Files (Do not commit large synthetic CSVs/Parquets to GitHub)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Local Graph Database storage
+*.kuzu
+kuzu_db/
+
+# OS Specific
+Thumbs.db
+.DS_Store
